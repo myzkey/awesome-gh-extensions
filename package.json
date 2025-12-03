@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "generate": "bun run scripts/generate.ts",
-    "typecheck": "bun run tsc --noEmit"
+    "typecheck": "bun run tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [
     "github",
@@ -16,7 +20,9 @@
   "author": "myzkey",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^2.3.8",
     "@types/bun": "latest",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.15"
   }
 }
