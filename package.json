@@ -1,0 +1,22 @@
+{
+  "name": "awesome-gh-extensions",
+  "version": "1.0.0",
+  "description": "Auto-updated curated list of GitHub CLI extensions",
+  "type": "module",
+  "scripts": {
+    "generate": "bun run scripts/generate.ts",
+    "typecheck": "bun run tsc --noEmit"
+  },
+  "keywords": [
+    "github",
+    "gh-extension",
+    "awesome-list",
+    "cli"
+  ],
+  "author": "myzkey",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.3.0"
+  }
+}
