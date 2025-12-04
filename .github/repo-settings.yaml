@@ -31,7 +31,7 @@ branch_protection:
     status_checks:
       - check
     strict_status_checks: true
-    enforce_admins: true
+    enforce_admins: false
     allow_force_pushes: false
     allow_deletions: false
 
