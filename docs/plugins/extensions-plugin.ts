@@ -89,7 +89,7 @@ export function extensionsPlugin(): RspressPlugin {
   return {
     name: "extensions-plugin",
     async addPages() {
-      const dataPath = path.resolve(process.cwd(), "data/extensions.json");
+      const dataPath = path.resolve(process.cwd(), "../data/extensions.json");
       const rawData = fs.readFileSync(dataPath, "utf-8");
       const data: ExtensionsData = JSON.parse(rawData);
 

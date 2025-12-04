@@ -3,6 +3,7 @@ import { extensionsPlugin } from "./plugins/extensions-plugin";
 
 export default defineConfig({
   root: "docs",
+  base: "/awesome-gh-extensions/",
   title: "Awesome GH Extensions",
   description: "Auto-updated curated list of GitHub CLI extensions",
   plugins: [extensionsPlugin()],
