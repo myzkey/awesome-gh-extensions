@@ -9,10 +9,7 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "docs:dev": "rspress dev",
-    "docs:build": "rspress build",
-    "docs:preview": "rspress preview"
+    "test:watch": "vitest"
   },
   "keywords": [
     "github",
@@ -24,9 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^2.3.8",
-    "@rspress/theme-default": "^1.46.2",
     "@types/bun": "latest",
-    "rspress": "^1.46.2",
     "typescript": "^5.3.0",
     "vitest": "^4.0.15"
   }

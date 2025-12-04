@@ -28,9 +28,11 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+        working-directory: docs
 
       - name: Build docs
-        run: bun run docs:build
+        run: bun run build
+        working-directory: docs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -38,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: doc_build
+          path: docs/doc_build
 
   deploy:
     environment:
