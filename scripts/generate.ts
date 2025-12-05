@@ -223,10 +223,12 @@ async function fetchExtensions(): Promise<Repository[]> {
     await new Promise((resolve) => setTimeout(resolve, 1000))
   }
 
-  // Filter out forks and archived repositories
-  const filtered = allExtensions.filter((repo) => !repo.fork && !repo.archived)
+  // Filter out forks, archived repositories, and repos without gh- prefix
+  const filtered = allExtensions.filter(
+    (repo) => !repo.fork && !repo.archived && repo.name.startsWith('gh-'),
+  )
   console.log(
-    `Filtered: ${allExtensions.length} -> ${filtered.length} (removed ${allExtensions.length - filtered.length} forks/archived)`,
+    `Filtered: ${allExtensions.length} -> ${filtered.length} (removed ${allExtensions.length - filtered.length} forks/archived/non-gh-prefix)`,
   )
 
   return filtered
