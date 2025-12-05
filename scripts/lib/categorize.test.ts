@@ -1,10 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import {
-  categorize,
-  formatDate,
-  formatStars,
-  type Repository,
-} from './generate'
+import { CATEGORY_ORDER, categorize } from './categorize'
+import type { Repository } from './types'
 
 const createRepo = (overrides: Partial<Repository> = {}): Repository => ({
   id: 1,
@@ -13,51 +9,12 @@ const createRepo = (overrides: Partial<Repository> = {}): Repository => ({
   description: null,
   html_url: 'https://github.com/user/gh-test',
   stargazers_count: 0,
-  watchers_count: 0,
-  forks_count: 0,
-  open_issues_count: 0,
-  created_at: '2025-01-01T00:00:00Z',
   updated_at: '2025-01-01T00:00:00Z',
-  pushed_at: '2025-01-01T00:00:00Z',
-  homepage: null,
-  size: 0,
   language: null,
   topics: [],
-  default_branch: 'main',
-  visibility: 'public',
-  license: null,
-  owner: {
-    login: 'user',
-    id: 1,
-    avatar_url: 'https://avatars.githubusercontent.com/u/1',
-    html_url: 'https://github.com/user',
-    type: 'User',
-  },
-  fork: false,
+  owner: 'user',
   archived: false,
-  disabled: false,
-  has_issues: true,
-  has_discussions: false,
   ...overrides,
-})
-
-describe('formatStars', () => {
-  it('returns number as string for < 1000', () => {
-    expect(formatStars(0)).toBe('0')
-    expect(formatStars(999)).toBe('999')
-  })
-
-  it('returns formatted string with k for >= 1000', () => {
-    expect(formatStars(1000)).toBe('1.0k')
-    expect(formatStars(1500)).toBe('1.5k')
-    expect(formatStars(10000)).toBe('10.0k')
-  })
-})
-
-describe('formatDate', () => {
-  it('extracts date from ISO string', () => {
-    expect(formatDate('2025-01-15T12:30:00Z')).toBe('2025-01-15')
-  })
 })
 
 describe('categorize', () => {
@@ -92,5 +49,17 @@ describe('categorize', () => {
         createRepo({ name: 'gh-something', description: 'Does stuff' }),
       ),
     ).toBe('Miscellaneous')
+  })
+})
+
+describe('CATEGORY_ORDER', () => {
+  it('contains all categories', () => {
+    expect(CATEGORY_ORDER).toHaveLength(7)
+    expect(CATEGORY_ORDER).toContain('UI / Dashboard')
+    expect(CATEGORY_ORDER).toContain('Miscellaneous')
+  })
+
+  it('has Miscellaneous last', () => {
+    expect(CATEGORY_ORDER[CATEGORY_ORDER.length - 1]).toBe('Miscellaneous')
   })
 })
