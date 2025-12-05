@@ -7,18 +7,41 @@ const CACHE_FILE = path.join(DATA_DIR, 'extensions.json')
 const README_FILE = path.join(process.cwd(), 'README.md')
 
 export interface Repository {
+  id: number
   name: string
   full_name: string
   description: string | null
   html_url: string
   stargazers_count: number
+  watchers_count: number
+  forks_count: number
+  open_issues_count: number
+  created_at: string
   updated_at: string
+  pushed_at: string
+  homepage: string | null
+  size: number
+  language: string | null
   topics: string[]
+  default_branch: string
+  visibility: string
+  license: {
+    key: string
+    name: string
+    spdx_id: string
+  } | null
   owner: {
     login: string
+    id: number
+    avatar_url: string
+    html_url: string
+    type: string
   }
   fork: boolean
   archived: boolean
+  disabled: boolean
+  has_issues: boolean
+  has_discussions: boolean
 }
 
 interface SearchResponse {
@@ -103,6 +126,49 @@ const CATEGORY_ORDER: Category[] = [
 
 const MAX_SEARCH_RESULTS = 1000
 
+// biome-ignore lint/suspicious/noExplicitAny: GitHub API response type
+function slimifyRepository(repo: any): Repository {
+  return {
+    id: repo.id,
+    name: repo.name,
+    full_name: repo.full_name,
+    description: repo.description,
+    html_url: repo.html_url,
+    stargazers_count: repo.stargazers_count,
+    watchers_count: repo.watchers_count,
+    forks_count: repo.forks_count,
+    open_issues_count: repo.open_issues_count,
+    created_at: repo.created_at,
+    updated_at: repo.updated_at,
+    pushed_at: repo.pushed_at,
+    homepage: repo.homepage,
+    size: repo.size,
+    language: repo.language,
+    topics: repo.topics,
+    default_branch: repo.default_branch,
+    visibility: repo.visibility,
+    license: repo.license
+      ? {
+          key: repo.license.key,
+          name: repo.license.name,
+          spdx_id: repo.license.spdx_id,
+        }
+      : null,
+    owner: {
+      login: repo.owner.login,
+      id: repo.owner.id,
+      avatar_url: repo.owner.avatar_url,
+      html_url: repo.owner.html_url,
+      type: repo.owner.type,
+    },
+    fork: repo.fork,
+    archived: repo.archived,
+    disabled: repo.disabled,
+    has_issues: repo.has_issues,
+    has_discussions: repo.has_discussions,
+  }
+}
+
 async function fetchExtensions(): Promise<Repository[]> {
   const allExtensions: Repository[] = []
   let page = 1
@@ -139,7 +205,8 @@ async function fetchExtensions(): Promise<Repository[]> {
     }
 
     const data: SearchResponse = await response.json()
-    allExtensions.push(...data.items)
+    const slimItems = data.items.map(slimifyRepository)
+    allExtensions.push(...slimItems)
 
     const effectiveTotal = Math.min(data.total_count, MAX_SEARCH_RESULTS)
     console.log(
