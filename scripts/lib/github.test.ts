@@ -1,13 +1,28 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { fetchExtensions } from './github'
 
+const mockFetch = (response: {
+  ok: boolean
+  status?: number
+  json?: () => Promise<unknown>
+}) => {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn().mockResolvedValue({
+      ok: response.ok,
+      status: response.status,
+      json: response.json ?? (() => Promise.resolve({})),
+    }),
+  )
+}
+
 describe('fetchExtensions', () => {
   beforeEach(() => {
     vi.clearAllMocks()
   })
 
   afterEach(() => {
-    vi.restoreAllMocks()
+    vi.unstubAllGlobals()
   })
 
   it('fetches and slimifies repositories', async () => {
@@ -35,10 +50,7 @@ describe('fetchExtensions', () => {
       ],
     }
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(mockResponse),
-    })
+    mockFetch({ ok: true, json: () => Promise.resolve(mockResponse) })
 
     const result = await fetchExtensions()
 
@@ -93,10 +105,7 @@ describe('fetchExtensions', () => {
       ],
     }
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(mockResponse),
-    })
+    mockFetch({ ok: true, json: () => Promise.resolve(mockResponse) })
 
     const result = await fetchExtensions()
 
@@ -125,10 +134,7 @@ describe('fetchExtensions', () => {
       ],
     }
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(mockResponse),
-    })
+    mockFetch({ ok: true, json: () => Promise.resolve(mockResponse) })
 
     const result = await fetchExtensions()
 
@@ -170,10 +176,7 @@ describe('fetchExtensions', () => {
       ],
     }
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(mockResponse),
-    })
+    mockFetch({ ok: true, json: () => Promise.resolve(mockResponse) })
 
     const result = await fetchExtensions()
 
@@ -182,19 +185,13 @@ describe('fetchExtensions', () => {
   })
 
   it('throws error on API failure', async () => {
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: false,
-      status: 500,
-    })
+    mockFetch({ ok: false, status: 500 })
 
     await expect(fetchExtensions()).rejects.toThrow('GitHub API error: 500')
   })
 
   it('handles rate limit by returning empty array', async () => {
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: false,
-      status: 403,
-    })
+    mockFetch({ ok: false, status: 403 })
 
     const result = await fetchExtensions()
 
