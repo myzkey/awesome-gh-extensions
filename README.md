@@ -4,7 +4,7 @@
 
 [![Update Extensions](https://github.com/myzkey/awesome-gh-extensions/actions/workflows/update.yml/badge.svg)](https://github.com/myzkey/awesome-gh-extensions/actions/workflows/update.yml)
 
-**Last updated:** 2025-12-03 | **Total extensions:** 658
+**Last updated:** 2025-12-05 | **Total extensions:** 658
 
 ---
 

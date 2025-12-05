@@ -7,16 +7,37 @@ import {
 } from './generate'
 
 const createRepo = (overrides: Partial<Repository> = {}): Repository => ({
+  id: 1,
   name: 'gh-test',
   full_name: 'user/gh-test',
   description: null,
   html_url: 'https://github.com/user/gh-test',
   stargazers_count: 0,
+  watchers_count: 0,
+  forks_count: 0,
+  open_issues_count: 0,
+  created_at: '2025-01-01T00:00:00Z',
   updated_at: '2025-01-01T00:00:00Z',
+  pushed_at: '2025-01-01T00:00:00Z',
+  homepage: null,
+  size: 0,
+  language: null,
   topics: [],
-  owner: { login: 'user' },
+  default_branch: 'main',
+  visibility: 'public',
+  license: null,
+  owner: {
+    login: 'user',
+    id: 1,
+    avatar_url: 'https://avatars.githubusercontent.com/u/1',
+    html_url: 'https://github.com/user',
+    type: 'User',
+  },
   fork: false,
   archived: false,
+  disabled: false,
+  has_issues: true,
+  has_discussions: false,
   ...overrides,
 })
 
