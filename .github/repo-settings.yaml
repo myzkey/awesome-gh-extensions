@@ -1,6 +1,6 @@
 repo:
   description: "Auto-updated curated list of GitHub CLI extensions"
-  homepage: ""
+  homepage: "https://myzkey.github.io/awesome-gh-extensions/"
   visibility: public
   allow_merge_commit: false
   allow_rebase_merge: false
