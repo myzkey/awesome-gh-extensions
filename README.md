@@ -4,7 +4,7 @@
 
 [![Update Extensions](https://github.com/myzkey/awesome-gh-extensions/actions/workflows/update.yml/badge.svg)](https://github.com/myzkey/awesome-gh-extensions/actions/workflows/update.yml)
 
-**Last updated:** 2026-03-16 | **Total extensions:** 736
+**Last updated:** 2026-03-23 | **Total extensions:** 747
 
 ---
 
@@ -12,26 +12,26 @@
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 10.9k | 2026-03-15 | A rich terminal UI for GitHub that doesn't break your flow. |
-| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-15 | GitHub Agentic Workflows |
-| [github/gh-skyline](https://github.com/github/gh-skyline) | 1.2k | 2026-03-15 | A GitHub CLI extension to generate a 3D model of your GitHub contribution history |
-| [github/gh-actions-importer](https://github.com/github/gh-actions-importer) | 1.2k | 2026-03-10 | GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions. |
-| [basecamp/gh-signoff](https://github.com/basecamp/gh-signoff) | 1.1k | 2026-03-14 | Local CI. Sign off on your own work. |
-| [seachicken/gh-poi](https://github.com/seachicken/gh-poi) | 920 | 2026-03-13 | ✨ Safely clean up your local branches |
-| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 797 | 2026-03-15 | GitHub CLI extension to preview Markdown looks like GitHub. |
-| [jrnxf/gh-eco](https://github.com/jrnxf/gh-eco) | 463 | 2026-03-12 | 🦎 gh cli extension to explore the ecosystem |
-| [github/gh-gei](https://github.com/github/gh-gei) | 426 | 2026-03-13 | Migration CLI for GitHub to GitHub migrations |
-| [gennaro-tedesco/gh-s](https://github.com/gennaro-tedesco/gh-s) | 389 | 2026-03-11 | 🔎 search github repositories interactively |
-| [gennaro-tedesco/gh-f](https://github.com/gennaro-tedesco/gh-f) | 381 | 2026-03-11 | 🔎 the ultimate compact fzf gh extension |
-| [Link-/gh-token](https://github.com/Link-/gh-token) | 375 | 2026-03-15 | Manage installation access tokens for GitHub apps from your terminal 💻 |
-| [mona-actions/gh-repo-stats](https://github.com/mona-actions/gh-repo-stats) | 348 | 2026-03-14 | GH CLI extension to pull statistics on repository metadata used in GitHub migrations |
-| [meiji163/gh-notify](https://github.com/meiji163/gh-notify) | 329 | 2026-03-08 | GitHub CLI extension to display GitHub notifications |
-| [leereilly/gh-yule-log](https://github.com/leereilly/gh-yule-log) | 307 | 2026-03-12 | A Yule log extension for GitHub CLI.  ̶Y̶u̶l̶e̶ You'll love it! 🪵 🔥 |
+| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 11.1k | 2026-03-22 | A rich terminal UI for GitHub that doesn't break your flow. |
+| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-23 | GitHub Agentic Workflows |
+| [github/gh-skyline](https://github.com/github/gh-skyline) | 1.2k | 2026-03-22 | A GitHub CLI extension to generate a 3D model of your GitHub contribution history |
+| [github/gh-actions-importer](https://github.com/github/gh-actions-importer) | 1.2k | 2026-03-19 | GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions. |
+| [basecamp/gh-signoff](https://github.com/basecamp/gh-signoff) | 1.1k | 2026-03-20 | Local CI. Sign off on your own work. |
+| [seachicken/gh-poi](https://github.com/seachicken/gh-poi) | 928 | 2026-03-22 | ✨ Safely clean up your local branches |
+| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 801 | 2026-03-22 | GitHub CLI extension to preview Markdown looks like GitHub. |
+| [jrnxf/gh-eco](https://github.com/jrnxf/gh-eco) | 463 | 2026-03-20 | 🦎 gh cli extension to explore the ecosystem |
+| [github/gh-gei](https://github.com/github/gh-gei) | 429 | 2026-03-22 | Migration CLI for GitHub to GitHub migrations |
+| [gennaro-tedesco/gh-s](https://github.com/gennaro-tedesco/gh-s) | 390 | 2026-03-22 | 🔎 search github repositories interactively |
+| [gennaro-tedesco/gh-f](https://github.com/gennaro-tedesco/gh-f) | 382 | 2026-03-21 | 🔎 the ultimate compact fzf gh extension |
+| [Link-/gh-token](https://github.com/Link-/gh-token) | 377 | 2026-03-22 | Manage installation access tokens for GitHub apps from your terminal 💻 |
+| [mona-actions/gh-repo-stats](https://github.com/mona-actions/gh-repo-stats) | 351 | 2026-03-21 | GH CLI extension to pull statistics on repository metadata used in GitHub migrations |
+| [meiji163/gh-notify](https://github.com/meiji163/gh-notify) | 330 | 2026-03-16 | GitHub CLI extension to display GitHub notifications |
+| [leereilly/gh-yule-log](https://github.com/leereilly/gh-yule-log) | 306 | 2026-03-18 | A Yule log extension for GitHub CLI.  ̶Y̶u̶l̶e̶ You'll love it! 🪵 🔥 |
 | [mislav/gh-branch](https://github.com/mislav/gh-branch) | 270 | 2026-03-08 | GitHub CLI extension for fuzzy finding, quickly switching between and deleting branches. |
-| [k1LoW/gh-grep](https://github.com/k1LoW/gh-grep) | 223 | 2026-03-13 | :octocat: Print lines matching a pattern in repositories using GitHub API |
+| [k1LoW/gh-grep](https://github.com/k1LoW/gh-grep) | 223 | 2026-03-21 | :octocat: Print lines matching a pattern in repositories using GitHub API |
 | [redraw/gh-install](https://github.com/redraw/gh-install) | 219 | 2026-02-20 | install GitHub release binaries from the CLI interactively |
 | [vilmibm/gh-screensaver](https://github.com/vilmibm/gh-screensaver) | 208 | 2026-03-10 | full terminal animations |
-| [advanced-security/gh-sbom](https://github.com/advanced-security/gh-sbom) | 199 | 2026-02-23 | Generate SBOMs with gh CLI |
+| [advanced-security/gh-sbom](https://github.com/advanced-security/gh-sbom) | 200 | 2026-03-22 | Generate SBOMs with gh CLI |
 
 ---
 
@@ -39,16 +39,16 @@
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 10.9k | 2026-03-15 | A rich terminal UI for GitHub that doesn't break your flow. |
-| [yukikotani231/gh-pr-review](https://github.com/yukikotani231/gh-pr-review) | 3 | 2026-03-15 | TUI PR reviewer for GitHub - review files, mark as viewed, and submit reviews from your terminal |
-| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-15 | GitHub Agentic Workflows |
-| [TimoBechtel/gh-get](https://github.com/TimoBechtel/gh-get) | 0 | 2026-03-15 | Download single files from GitHub |
-| [PedroGomesR/gh-gonest](https://github.com/PedroGomesR/gh-gonest) | 0 | 2026-03-15 | 👻 Remove phantom notifications from deleted GitHub repositories, restoring clarity to your notifications and solving a common UI issue. |
-| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 797 | 2026-03-15 | GitHub CLI extension to preview Markdown looks like GitHub. |
-| [fchimpan/gh-slimify](https://github.com/fchimpan/gh-slimify) | 102 | 2026-03-15 | 🚀 Automatically detect and migrate GitHub Actions workflows to `ubuntu-slim` for cost-efficient CI |
-| [github/gh-skyline](https://github.com/github/gh-skyline) | 1.2k | 2026-03-15 | A GitHub CLI extension to generate a 3D model of your GitHub contribution history |
-| [maxbeizer/gh-fleet](https://github.com/maxbeizer/gh-fleet) | 0 | 2026-03-15 | @maxbeizer's gh CLI extensions in one place |
-| [webmaxru/gh-is-ai-native](https://github.com/webmaxru/gh-is-ai-native) | 0 | 2026-03-15 | GitHub CLI extension for scanning repositories for AI-native development primitives. |
+| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-23 | GitHub Agentic Workflows |
+| [fini-net/gh-observer](https://github.com/fini-net/gh-observer) | 4 | 2026-03-22 | 🔎 Terminal UI for watching GitHub Actions CI/CD workflows with runtime metrics, queue times, and check status - alternative to gh pr checks --watch |
+| [PedroGomesR/gh-gonest](https://github.com/PedroGomesR/gh-gonest) | 0 | 2026-03-22 | 👻 Remove phantom notifications from deleted GitHub repositories, restoring clarity to your notifications and solving a common UI issue. |
+| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 11.1k | 2026-03-22 | A rich terminal UI for GitHub that doesn't break your flow. |
+| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 801 | 2026-03-22 | GitHub CLI extension to preview Markdown looks like GitHub. |
+| [github/gh-gei](https://github.com/github/gh-gei) | 429 | 2026-03-22 | Migration CLI for GitHub to GitHub migrations |
+| [bajaj6/gh-pr-dashboard](https://github.com/bajaj6/gh-pr-dashboard) | 2 | 2026-03-22 | A GitHub CLI extension that helps user manage their PRs. It's just a read only dashboard, organises your PR. |
+| [bjester/gh-worktree](https://github.com/bjester/gh-worktree) | 3 | 2026-03-22 | A tool and github CLI extension for managing worktrees |
+| [Link-/gh-token](https://github.com/Link-/gh-token) | 377 | 2026-03-22 | Manage installation access tokens for GitHub apps from your terminal 💻 |
+| [maxbeizer/gh-planning](https://github.com/maxbeizer/gh-planning) | 0 | 2026-03-22 | Planning with projects and issues in the CLI |
 
 ---
 
@@ -58,16 +58,16 @@
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 10.9k | 2026-03-15 | A rich terminal UI for GitHub that doesn't break your flow. |
-| [github/gh-skyline](https://github.com/github/gh-skyline) | 1.2k | 2026-03-15 | A GitHub CLI extension to generate a 3D model of your GitHub contribution history |
-| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 797 | 2026-03-15 | GitHub CLI extension to preview Markdown looks like GitHub. |
-| [jrnxf/gh-eco](https://github.com/jrnxf/gh-eco) | 463 | 2026-03-12 | 🦎 gh cli extension to explore the ecosystem |
-| [Link-/gh-token](https://github.com/Link-/gh-token) | 375 | 2026-03-15 | Manage installation access tokens for GitHub apps from your terminal 💻 |
+| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | 11.1k | 2026-03-22 | A rich terminal UI for GitHub that doesn't break your flow. |
+| [github/gh-skyline](https://github.com/github/gh-skyline) | 1.2k | 2026-03-22 | A GitHub CLI extension to generate a 3D model of your GitHub contribution history |
+| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | 801 | 2026-03-22 | GitHub CLI extension to preview Markdown looks like GitHub. |
+| [jrnxf/gh-eco](https://github.com/jrnxf/gh-eco) | 463 | 2026-03-20 | 🦎 gh cli extension to explore the ecosystem |
+| [Link-/gh-token](https://github.com/Link-/gh-token) | 377 | 2026-03-22 | Manage installation access tokens for GitHub apps from your terminal 💻 |
 | [mislav/gh-branch](https://github.com/mislav/gh-branch) | 270 | 2026-03-08 | GitHub CLI extension for fuzzy finding, quickly switching between and deleting branches. |
 | [vilmibm/gh-screensaver](https://github.com/vilmibm/gh-screensaver) | 208 | 2026-03-10 | full terminal animations |
 | [kawarimidoll/gh-graph](https://github.com/kawarimidoll/gh-graph) | 136 | 2026-03-10 | GitHub contribution graph in your terminal |
-| [agynio/gh-pr-review](https://github.com/agynio/gh-pr-review) | 103 | 2026-03-15 | GitHub CLI extension that adds full inline PR review comment support — view, navigate, reply to, and resolve review threads directly from the terminal. LLM-ready and ideal for automated PR review agents. |
-| [thiagokokada/gh-gfm-preview](https://github.com/thiagokokada/gh-gfm-preview) | 83 | 2026-03-13 | A standalone/GitHub CLI extension to preview GitHub Flavored Markdown, even offline. |
+| [agynio/gh-pr-review](https://github.com/agynio/gh-pr-review) | 104 | 2026-03-19 | GitHub CLI extension that adds full inline PR review comment support — view, navigate, reply to, and resolve review threads directly from the terminal. LLM-ready and ideal for automated PR review agents. |
+| [thiagokokada/gh-gfm-preview](https://github.com/thiagokokada/gh-gfm-preview) | 84 | 2026-03-21 | A standalone/GitHub CLI extension to preview GitHub Flavored Markdown, even offline. |
 | [MintArchit/gh-contribs](https://github.com/MintArchit/gh-contribs) | 63 | 2026-03-10 | GitHub Contribution Graph CLI |
 | [aymanbagabas/gh-stars](https://github.com/aymanbagabas/gh-stars) | 52 | 2026-02-24 | GitHub stargazers in your terminal 🌟 |
 | [sayanarijit/gh-xplr](https://github.com/sayanarijit/gh-xplr) | 52 | 2026-02-19 | Explore GitHub repos using xplr via GitHub CLI |
@@ -76,21 +76,21 @@
 | [einride/gh-dependabot](https://github.com/einride/gh-dependabot) | 41 | 2026-02-05 | GitHub CLI extension for reviewing Dependabot PRs. |
 | [hubwriter/gh-quickcs](https://github.com/hubwriter/gh-quickcs) | 38 | 2026-02-22 | Quickly create a codespace for a preconfigured repo from your terminal. |
 | [benelan/gh-fzf](https://github.com/benelan/gh-fzf) | 34 | 2026-03-15 | An fzf wrapper around the GitHub CLI |
+| [gizmo385/gh-lazy](https://github.com/gizmo385/gh-lazy) | 29 | 2026-03-22 | A terminal UI for interacting with GitHub |
 | [jackchuka/gh-dep](https://github.com/jackchuka/gh-dep) | 28 | 2026-03-15 | Interactive TUI for bulk managing dependency PRs. Multi-repo support, keyboard navigation, live settings. A better Dependabot/Renovate workflow. |
-| [gizmo385/gh-lazy](https://github.com/gizmo385/gh-lazy) | 28 | 2026-03-14 | A terminal UI for interacting with GitHub |
 
 ### Repository Management
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [seachicken/gh-poi](https://github.com/seachicken/gh-poi) | 920 | 2026-03-13 | ✨ Safely clean up your local branches |
-| [gennaro-tedesco/gh-s](https://github.com/gennaro-tedesco/gh-s) | 389 | 2026-03-11 | 🔎 search github repositories interactively |
-| [mona-actions/gh-repo-stats](https://github.com/mona-actions/gh-repo-stats) | 348 | 2026-03-14 | GH CLI extension to pull statistics on repository metadata used in GitHub migrations |
-| [k1LoW/gh-grep](https://github.com/k1LoW/gh-grep) | 223 | 2026-03-13 | :octocat: Print lines matching a pattern in repositories using GitHub API |
+| [seachicken/gh-poi](https://github.com/seachicken/gh-poi) | 928 | 2026-03-22 | ✨ Safely clean up your local branches |
+| [gennaro-tedesco/gh-s](https://github.com/gennaro-tedesco/gh-s) | 390 | 2026-03-22 | 🔎 search github repositories interactively |
+| [mona-actions/gh-repo-stats](https://github.com/mona-actions/gh-repo-stats) | 351 | 2026-03-21 | GH CLI extension to pull statistics on repository metadata used in GitHub migrations |
+| [k1LoW/gh-grep](https://github.com/k1LoW/gh-grep) | 223 | 2026-03-21 | :octocat: Print lines matching a pattern in repositories using GitHub API |
 | [davidraviv/gh-clean-branches](https://github.com/davidraviv/gh-clean-branches) | 184 | 2026-02-15 | Safely deletes local branches with no upstream and no un-pushed commits |
-| [korosuke613/gh-user-stars](https://github.com/korosuke613/gh-user-stars) | 177 | 2026-03-14 | Displays an interactive and searchable list of your GitHub starred repositories |
+| [korosuke613/gh-user-stars](https://github.com/korosuke613/gh-user-stars) | 178 | 2026-03-21 | Displays an interactive and searchable list of your GitHub starred repositories |
 | [matt-bartel/gh-clone-org](https://github.com/matt-bartel/gh-clone-org) | 145 | 2026-03-04 | A github-cli extension script to clone all repositories in an organization, optionally filtering by topic. |
-| [emmanuel-ferdman/gh-gonest](https://github.com/emmanuel-ferdman/gh-gonest) | 118 | 2026-02-21 | :octocat: GitHub CLI extension that automatically detects and removes ghost notifications from banned/deleted repos |
+| [emmanuel-ferdman/gh-gonest](https://github.com/emmanuel-ferdman/gh-gonest) | 117 | 2026-03-19 | :octocat: GitHub CLI extension that automatically detects and removes ghost notifications from banned/deleted repos |
 | [mislav/gh-cp](https://github.com/mislav/gh-cp) | 103 | 2026-02-12 | GitHub CLI extension to copy a file from a GitHub repository locally without cloning the repository. |
 | [sgoedecke/gh-standup](https://github.com/sgoedecke/gh-standup) | 101 | 2026-03-15 | A GitHub CLI extension for generating an AI-assisted standup report |
 | [gitkraken/gh-gk](https://github.com/gitkraken/gh-gk) | 72 | 2025-08-28 | Master multi-repo workflows, synchronize on PRs & Issues, and integrate seamlessly with GitKraken Client & GitLens for VS Code for instant Git visualization. |
@@ -118,12 +118,12 @@
 | [mislav/gh-license](https://github.com/mislav/gh-license) | 29 | 2026-02-05 | GitHub CLI extension to add a license to the current project |
 | [carlsberg/gh-releaser](https://github.com/carlsberg/gh-releaser) | 24 | 2025-10-06 | GitHub CLI extension to simplify starting and closing releases in GitFlow-based projects. |
 | [rethab/gh-project](https://github.com/rethab/gh-project) | 22 | 2025-10-06 | github cli extension to work with projects |
-| [github/gh-es](https://github.com/github/gh-es) | 22 | 2026-02-23 | GitHub's official command line tool for Enterprise Server |
-| [kentaro-m/gh-lspr](https://github.com/kentaro-m/gh-lspr) | 21 | 2025-10-06 | gh-lspr is GitHub CLI extension to help you to check pull requests to which you need to respond. |
+| [kentaro-m/gh-lspr](https://github.com/kentaro-m/gh-lspr) | 22 | 2026-03-19 | gh-lspr is GitHub CLI extension to help you to check pull requests to which you need to respond. |
+| [github/gh-es](https://github.com/github/gh-es) | 22 | 2026-03-18 | GitHub's official command line tool for Enterprise Server |
+| [shuymn/gh-mcp](https://github.com/shuymn/gh-mcp) | 20 | 2026-03-20 | A GitHub CLI extension that seamlessly runs the github-mcp-server using your existing gh authentication. Eliminates manual PAT setup by automatically retrieving GitHub credentials and launching the MCP server with proper authentication. |
 | [vilmibm/gh-oblique](https://github.com/vilmibm/gh-oblique) | 19 | 2025-10-06 | a gh extension that prints out an oblique strategy |
-| [shuymn/gh-mcp](https://github.com/shuymn/gh-mcp) | 19 | 2026-03-14 | A GitHub CLI extension that seamlessly runs the github-mcp-server using your existing gh authentication. Eliminates manual PAT setup by automatically retrieving GitHub credentials and launching the MCP server with proper authentication. |
 | [heaths/gh-projects](https://github.com/heaths/gh-projects) | 17 | 2025-08-24 | GitHub CLI extension to manage GitHub Projects (V2). |
-| [CallMeGreg/gh-language](https://github.com/CallMeGreg/gh-language) | 17 | 2026-02-11 | A gh CLI extension to analyze languages in GitHub Enterprises and Organizations |
+| [CallMeGreg/gh-language](https://github.com/CallMeGreg/gh-language) | 16 | 2026-03-18 | A gh CLI extension to analyze languages in GitHub Enterprises and Organizations |
 | [kmcq/gh-combine-dependabot-prs](https://github.com/kmcq/gh-combine-dependabot-prs) | 15 | 2024-04-18 | Combine dependabot PRs into a single PR |
 | [mona-actions/gh-migrate-teams](https://github.com/mona-actions/gh-migrate-teams) | 15 | 2026-02-19 | GH CLI extension to assist in the migration of teams between GHEC enterprises |
 | [tisonkun/gh-cherry-pick](https://github.com/tisonkun/gh-cherry-pick) | 14 | 2025-11-08 | A script to cherry-pick a pull request that can be installed as gh extension. |
@@ -133,32 +133,32 @@
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-15 | GitHub Agentic Workflows |
-| [github/gh-actions-importer](https://github.com/github/gh-actions-importer) | 1.2k | 2026-03-10 | GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions. |
-| [basecamp/gh-signoff](https://github.com/basecamp/gh-signoff) | 1.1k | 2026-03-14 | Local CI. Sign off on your own work. |
+| [github/gh-aw](https://github.com/github/gh-aw) | 4.1k | 2026-03-23 | GitHub Agentic Workflows |
+| [github/gh-actions-importer](https://github.com/github/gh-actions-importer) | 1.2k | 2026-03-19 | GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions. |
+| [basecamp/gh-signoff](https://github.com/basecamp/gh-signoff) | 1.1k | 2026-03-20 | Local CI. Sign off on your own work. |
 | [redraw/gh-install](https://github.com/redraw/gh-install) | 219 | 2026-02-20 | install GitHub release binaries from the CLI interactively |
-| [github/gh-classroom](https://github.com/github/gh-classroom) | 111 | 2026-03-11 | GitHub Classroom CLI Extension is a powerful and easy-to-use command line tool that enhances the functionality of the GitHub CLI, specifically tailored for educators using GitHub Classroom.  |
+| [github/gh-classroom](https://github.com/github/gh-classroom) | 112 | 2026-03-21 | GitHub Classroom CLI Extension is a powerful and easy-to-use command line tool that enhances the functionality of the GitHub CLI, specifically tailored for educators using GitHub Classroom.  |
 | [fchimpan/gh-workflow-stats](https://github.com/fchimpan/gh-workflow-stats) | 105 | 2026-03-02 | A GitHub CLI extension to calculate the success rate and execution time of workflows and jobs. |
-| [fchimpan/gh-slimify](https://github.com/fchimpan/gh-slimify) | 102 | 2026-03-15 | 🚀 Automatically detect and migrate GitHub Actions workflows to `ubuntu-slim` for cost-efficient CI |
-| [nektos/gh-act](https://github.com/nektos/gh-act) | 95 | 2026-02-27 | GitHub CLI Extension to run GitHub actions locally using nektos/act |
-| [k1LoW/gh-setup](https://github.com/k1LoW/gh-setup) | 24 | 2026-02-23 | :octocat: Setup asset of Github releases. |
+| [fchimpan/gh-slimify](https://github.com/fchimpan/gh-slimify) | 103 | 2026-03-20 | 🚀 Automatically detect and migrate GitHub Actions workflows to `ubuntu-slim` for cost-efficient CI |
+| [nektos/gh-act](https://github.com/nektos/gh-act) | 96 | 2026-03-17 | GitHub CLI Extension to run GitHub actions locally using nektos/act |
+| [k1LoW/gh-setup](https://github.com/k1LoW/gh-setup) | 24 | 2026-03-16 | :octocat: Setup asset of Github releases. |
 | [geoffreywiseman/gh-actuse](https://github.com/geoffreywiseman/gh-actuse) | 24 | 2026-02-07 | GitHub CLI Extension to display Github Actions Usage |
-| [codiform/gh-actions-usage](https://github.com/codiform/gh-actions-usage) | 23 | 2026-03-14 | GitHub CLI Extension to display Github Actions Usage. Go version of gh-actuse. |
+| [codiform/gh-actions-usage](https://github.com/codiform/gh-actions-usage) | 23 | 2026-03-18 | GitHub CLI Extension to display Github Actions Usage. Go version of gh-actuse. |
 | [cschleiden/gh-actionlint](https://github.com/cschleiden/gh-actionlint) | 21 | 2026-02-13 | Lint your GitHub actions workflows |
 | [VildMedPap/gh-orgstats](https://github.com/VildMedPap/gh-orgstats) | 16 | 2025-10-06 | Organisation specific extension for gh cli to retrieve different statistics |
-| [swfz/gh-annotations](https://github.com/swfz/gh-annotations) | 16 | 2025-12-19 | list of annotations from the recently executed Workflow |
 | [andyfeller/gh-artifact-purge](https://github.com/andyfeller/gh-artifact-purge) | 16 | 2025-10-06 | GitHub CLI extension to list and delete GitHub Actions artifacts based on new retention policy |
+| [swfz/gh-annotations](https://github.com/swfz/gh-annotations) | 16 | 2025-12-19 | list of annotations from the recently executed Workflow |
 | [schustafa/gh-pairing-with](https://github.com/schustafa/gh-pairing-with) | 14 | 2026-02-09 | 👩‍💻👨‍💻 gh CLI extension for generating a co-authored-by: string |
 | [cappyzawa/gh-ghq-cd](https://github.com/cappyzawa/gh-ghq-cd) | 11 | 2026-01-13 | A gh extention for exploring the `ghq list` |
 | [mantzas/gh-orgsync](https://github.com/mantzas/gh-orgsync) | 11 | 2025-12-02 | GitHub extension for syncing organization |
-| [amenocal/gh-pin-actions](https://github.com/amenocal/gh-pin-actions) | 9 | 2026-02-16 | GitHub Extension to pin actions based on their version |
+| [amenocal/gh-pin-actions](https://github.com/amenocal/gh-pin-actions) | 10 | 2026-03-19 | GitHub Extension to pin actions based on their version |
 | [BagToad/gh-mini-arc](https://github.com/BagToad/gh-mini-arc) | 8 | 2025-11-21 | A gh extension to start up a ARC deployment in minikube via codespaces. |
 
 ### Productivity / Workflow
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [meiji163/gh-notify](https://github.com/meiji163/gh-notify) | 329 | 2026-03-08 | GitHub CLI extension to display GitHub notifications |
+| [meiji163/gh-notify](https://github.com/meiji163/gh-notify) | 330 | 2026-03-16 | GitHub CLI extension to display GitHub notifications |
 | [valeriobelli/gh-milestone](https://github.com/valeriobelli/gh-milestone) | 73 | 2026-03-02 | GitHub CLI extension for managing Milestones |
 | [heaths/gh-label](https://github.com/heaths/gh-label) | 64 | 2026-03-01 | GitHub CLI extension for label management |
 | [nobe4/gh-not](https://github.com/nobe4/gh-not) | 30 | 2026-03-13 | GitHub rule-based notifications management |
@@ -168,9 +168,9 @@
 | [daniel-leinweber/gh-notifications](https://github.com/daniel-leinweber/gh-notifications) | 3 | 2025-10-04 | A GitHub CLI extension to interact with GitHub notifications |
 | [benelan/gh-notify-desktop](https://github.com/benelan/gh-notify-desktop) | 3 | 2026-02-12 | An extension for displaying new GitHub notifications on your desktop |
 | [tnagatomi/gh-fuda](https://github.com/tnagatomi/gh-fuda) | 2 | 2026-03-14 | gh-fuda is a gh extension which extends label manipulations |
-| [soundmonster/gh-flush](https://github.com/soundmonster/gh-flush) | 2 | 2025-06-26 | GitHub CLI extension to aggressively clear out notifications |
 | [paulbarton90/gh-clean-notifications](https://github.com/paulbarton90/gh-clean-notifications) | 2 | 2026-03-11 | A helper for marking github notifications as done via the gh command. |
-| [srz-zumix/gh-label-kit](https://github.com/srz-zumix/gh-label-kit) | 0 | 2026-03-09 | gh extension of github label api |
+| [soundmonster/gh-flush](https://github.com/soundmonster/gh-flush) | 2 | 2025-06-26 | GitHub CLI extension to aggressively clear out notifications |
+| [srz-zumix/gh-label-kit](https://github.com/srz-zumix/gh-label-kit) | 0 | 2026-03-22 | gh extension of github label api |
 | [mortenscheel/gh-purge-notifications](https://github.com/mortenscheel/gh-purge-notifications) | 0 | 2026-02-02 |  |
 
 ### Search & Discovery
@@ -186,9 +186,9 @@
 | [rsteube/gh-feed](https://github.com/rsteube/gh-feed) | 3 | 2024-11-01 | gh extension listing events |
 | [mszostok/gh-discover](https://github.com/mszostok/gh-discover) | 2 | 2024-04-16 | GitHub extension for discovering various statistics |
 | [int128/gh-graphql-explorer](https://github.com/int128/gh-graphql-explorer) | 2 | 2026-02-14 | GraphiQL explorer for GitHub GraphQL API on localhost |
+| [kumak1/gh-dependabot-alerts](https://github.com/kumak1/gh-dependabot-alerts) | 2 | 2024-12-28 | show dependabot alerts list |
 | [yanskun/gh-langs](https://github.com/yanskun/gh-langs) | 2 | 2025-11-12 | Get a list of languages ​​used by the target account. GitHub CLI Extensions |
 | [devanshutanna/gh-list-commits](https://github.com/devanshutanna/gh-list-commits) | 2 | 2022-05-12 |  |
-| [kumak1/gh-dependabot-alerts](https://github.com/kumak1/gh-dependabot-alerts) | 2 | 2024-12-28 | show dependabot alerts list |
 | [jef/gh-vanity](https://github.com/jef/gh-vanity) | 2 | 2024-04-02 | 🤩 Find and filter stargazers based on the company they work for |
 | [gh-cli-for-education/gh-accepted](https://github.com/gh-cli-for-education/gh-accepted) | 0 | 2024-01-31 | gh extension to list the students that have accepted a GH Classroom assignment |
 
@@ -196,17 +196,17 @@
 
 | Extension | Stars | Updated | Description |
 |-----------|-------|---------|-------------|
-| [github/gh-gei](https://github.com/github/gh-gei) | 426 | 2026-03-13 | Migration CLI for GitHub to GitHub migrations |
-| [gennaro-tedesco/gh-f](https://github.com/gennaro-tedesco/gh-f) | 381 | 2026-03-11 | 🔎 the ultimate compact fzf gh extension |
-| [leereilly/gh-yule-log](https://github.com/leereilly/gh-yule-log) | 307 | 2026-03-12 | A Yule log extension for GitHub CLI.  ̶Y̶u̶l̶e̶ You'll love it! 🪵 🔥 |
-| [advanced-security/gh-sbom](https://github.com/advanced-security/gh-sbom) | 199 | 2026-02-23 | Generate SBOMs with gh CLI |
-| [github/gh-models](https://github.com/github/gh-models) | 186 | 2026-03-11 | CLI extension for the GitHub Models service |
-| [rneatherway/gh-slack](https://github.com/rneatherway/gh-slack) | 166 | 2026-03-02 | Utility for archiving a slack conversation as markdown |
+| [github/gh-gei](https://github.com/github/gh-gei) | 429 | 2026-03-22 | Migration CLI for GitHub to GitHub migrations |
+| [gennaro-tedesco/gh-f](https://github.com/gennaro-tedesco/gh-f) | 382 | 2026-03-21 | 🔎 the ultimate compact fzf gh extension |
+| [leereilly/gh-yule-log](https://github.com/leereilly/gh-yule-log) | 306 | 2026-03-18 | A Yule log extension for GitHub CLI.  ̶Y̶u̶l̶e̶ You'll love it! 🪵 🔥 |
+| [advanced-security/gh-sbom](https://github.com/advanced-security/gh-sbom) | 200 | 2026-03-22 | Generate SBOMs with gh CLI |
+| [github/gh-models](https://github.com/github/gh-models) | 187 | 2026-03-21 | CLI extension for the GitHub Models service |
+| [rneatherway/gh-slack](https://github.com/rneatherway/gh-slack) | 168 | 2026-03-19 | Utility for archiving a slack conversation as markdown |
 | [chelnak/gh-changelog](https://github.com/chelnak/gh-changelog) | 126 | 2026-01-09 | A gh cli extension that will make your changelogs ✨ |
 | [mattn/gh-ost](https://github.com/mattn/gh-ost) | 89 | 2025-10-06 | gh extension to meet ghost. |
 | [vilmibm/gh-user-status](https://github.com/vilmibm/gh-user-status) | 85 | 2025-11-11 | set and get github user statuses |
 | [yuler/gh-download](https://github.com/yuler/gh-download) | 82 | 2026-02-14 | [GitHub CLI] extension for download folders/files |
-| [HaywardMorihara/gh-tidy](https://github.com/HaywardMorihara/gh-tidy) | 58 | 2026-02-04 | Github CLI extension for cleaning up your Git workspace to get ready for the day! |
+| [HaywardMorihara/gh-tidy](https://github.com/HaywardMorihara/gh-tidy) | 58 | 2026-03-16 | Github CLI extension for cleaning up your Git workspace to get ready for the day! |
 | [andyfeller/gh-montage](https://github.com/andyfeller/gh-montage) | 55 | 2025-10-15 | GitHub CLI extension to generate montage from GitHub user avatars |
 | [GitHubSecurityLab/gh-qldb](https://github.com/GitHubSecurityLab/gh-qldb) | 48 | 2026-02-05 | CodeQL database manager |
 | [jongio/gh-setup-git-credential-helper](https://github.com/jongio/gh-setup-git-credential-helper) | 43 | 2026-02-05 | GitHub CLI Extension to add gh as a gitcredentials helper |
